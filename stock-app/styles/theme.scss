@@ -1,0 +1,17 @@
+//Custom theme
+
+$primary: #F2705B;
+$secondary: #E9E5E4;
+$dark: #3E5B62;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "dark": $dark
+);
+
+$text-primary: #F2705B;
+$text-secondary: #E9E5E4;
+$text-dark: #3E5B62;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
