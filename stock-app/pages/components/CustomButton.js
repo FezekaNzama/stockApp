@@ -29,7 +29,7 @@ function CustomButton(props){
             </style>
 
             <Button variant='custom' >
-                <>{props.button}</>
+                <>{props.buttonText}</>
             </Button>
         </>
     )

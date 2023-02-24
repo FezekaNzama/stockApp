@@ -71,7 +71,7 @@ function NavBar() {
               <Nav.Link href="#howitworks" className="mx-3 nav-item">HOW IT WORKS</Nav.Link>
               <Nav.Link href="#pricing" className="mx-3 nav-item">PRICING</Nav.Link>
               <Nav.Link href="#signin" className="fs-6">
-                  <CustomButton variant='custom' button="SIGN IN"/>
+                  <CustomButton buttonText="SIGN IN"/>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
