@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Head from 'next/head'
 import NavBar from './components/NavBar'
 import Banner from './components/Banner'
+import Hero from './components/Hero'
 import { Container } from 'react-bootstrap';
 
 
@@ -18,7 +19,7 @@ export default function Home() {
     <Container fluid className='mx-lg-5 mx-2'>
       <NavBar/>
     </Container>
-    <Banner/>
+    <Hero/>
   </>
   )
 }
